@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="/day25/homework/style.css">
+</head>
+<body>
+    <form align="center"> <!--  შევქვმენით რეგისტრაცისათვის form თერგი, რომლითაც მომხმარებლებს ინფორმაციას შემოვატანინებთ და შემოტანილ
+         ინფორმაციას გადავგზავნით მონაცემთა ბაზაში. -->
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="text"  placeholder="Name" name="name" required>  <!--form თეგში ვქვმნით input ელემენტებს, 
+          რომლშიც მომხმარებელს შეაქვს ინფორმაცია, type ატრიბუტით განვსაზღვრავთ input ელემენტში 
+          შესატანი ინპორმაცისს ტიპს.placeholder ატრიბუტით ვატყპბინებთ მომხმარებელს რას სახის 
+          ინფორმაცია შეიტანოს ინფუთ ელემენტში-->  
+        <br>
+        <br>
+        <input type="text"  placeholder="Surname" name="surname" required>
+        <br>
+        <br>
+        <input type="email"  placeholder="Email" name="mail" required>
+        <br>
+        <br>
+        <input type="password" placeholder="Poassword" name="pass" required>
+        <br>
+        <br>
+        <label>Select gender:</label>
+        <br>
+        <label for="man">Male</label> <!--label ელემნტით მომხმარებელს მივუთიტებთ, თუ ტიპის  ინფორმაცია
+        უნდა მოგვაწოდოს მან. label ელემნტი დალავშირებულია მისთვის შესაბამის                                 
+         input ელემენტტან, input -- id საშუალებით.უნიკალური  id  მიენიჭება input ელემენტს,                                
+         რომელიც   for ის საშუალებით უკავშირდება  label ელემენტს-->                               
+        <input type="radio"  id="man"    required value="Male" name="gender"> <!--input ელემენტს დავუწერეთ name ატრიბუტი, 
+         რომლითაც ვუთითებთ მონაცემთა ბაზაში იმ სექციას                                                                       
+           სადაც გვინდა, რომ მიღებული ინფორმაცია განთავსდეს.                                                                      
+            value ატრიბუტით განვსაზრვრავთ ინფორმაცის მნიშვნელობას, საჭიროების შემთხვევაში.-->
+        <label for="women">Female</label>                                                                     
+                                                                               
+        <input type="radio" id="women"  value="Female"  name="gender">
+        <br>
+        <br>
+        <input type="reset" >
+        <input type="submit">
+    </form>
+</body>
+</html>
