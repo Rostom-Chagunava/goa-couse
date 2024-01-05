@@ -1,0 +1,66 @@
+.head{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(5, 80, 219);
+}
+img.head{
+    border-radius: 50%;
+    width: 10%;
+}
+p.head{
+    font-size: 40px
+}
+
+
+.mein{
+    background-color: #bcbcf7;
+}
+
+img.mein{
+    width: 8%;
+
+}
+.mein p{
+    text-align: center;
+}
+.abut1{
+    display: flex;
+}
+.abut1 > div {
+    width:33%;
+}
+
+.abutkoga{
+    background-color: #fbeabf;
+}
+.abutki{
+    background-color: #fbeabf;
+}
+.abutdavit{
+    background-color:  #fbeabf;
+}
+.abutshota{
+    background-color: #fcc434;
+}
+.abutshota b{
+    text-decoration:#f4f4f3 underline;
+}
+.abutshota p{
+    text-align: center;
+}
+.abuttedy{
+    background-color: bisque;
+}
+.abuttedy p{
+    text-align: center;
+}
+.abuttedy img{
+    width: 10%;
+}
+.footer{
+    color: white;
+    background-color:#716e6e;
+    width: 100%;
+}
+    
